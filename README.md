@@ -951,7 +951,7 @@ from EDA:<o:p></o:p></b></p>
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'>has:<span style='mso-spacerun:yes'>  </span>Male or Female</p>
+  normal'>has:<span style='mso-spacerun:yes'>Â  </span>Male or Female</p>
   </td>
   <td width=188 valign=top style='width:141.0pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
