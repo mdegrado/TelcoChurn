@@ -29,7 +29,8 @@ df_TCD  <- df_TCD[-c(1,3,7)]  #needed to run only 1 time, custid is issue, and o
 str(df_TCD)
 
 
-#setting up rpart - recursive partitioning, only using the factors for this simple tree
+#rpart decision tree
+#I didn't setup test or training data, should I? ******
 rpart_churn_tree <- rpart(Churn ~  .,data=df_TCD, method="class")
 plot(rpart_churn_tree)
 text(rpart_churn_tree) #displaying my simple tree

@@ -1,5 +1,4 @@
 #code elaborated from Schmuller, J. (2018). R Projects For Dummies. Hoboken, NJ. John Wiley & Sons Inc.
-#and Cirillo, A. (2017). R Data Mining. Birmingham, UK. Packt Publishing
 
 rm(list=ls())
 
@@ -40,9 +39,6 @@ print(churn.forest) # only
 plot(churn.forest, col = "black")
 legend("topright", legend=c(levels(df_TCD$Churn),"OOB"),lty = c("dashed","dotted","dotdash","solid"),cex=.8,bty = "n")
 churn.forest
-
-#variable importance
-varImpPlot(churn.forest)
 
 
 
