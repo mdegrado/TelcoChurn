@@ -40,6 +40,9 @@ plot(churn.forest, col = "black")
 legend("topright", legend=c(levels(df_TCD$Churn),"OOB"),lty = c("dashed","dotted","dotdash","solid"),cex=.8,bty = "n")
 churn.forest
 
+#variable importance
+varImpPlot(churn.forest)
+
 
 
 
