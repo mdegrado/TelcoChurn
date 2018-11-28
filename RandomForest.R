@@ -1,4 +1,5 @@
 #code elaborated from Schmuller, J. (2018). R Projects For Dummies. Hoboken, NJ. John Wiley & Sons Inc.
+#and Cirillo, A. (2017). R Data Mining. Birmingham, UK. Packt Publishing
 
 rm(list=ls())
 
