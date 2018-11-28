@@ -1,4 +1,5 @@
 #code elaborated from Schmuller, J. (2018). R Projects For Dummies. Hoboken, NJ. John Wiley & Sons Inc.
+#and Cirillo, A. (2017). R Data Mining. Birmingham, UK. Packt Publishing
 
 rm(list=ls())
 
@@ -26,6 +27,7 @@ str(df_TCD)
 
 
 #split out some training data
+#The algorithm already samples the data and randomizes the variables to account for overfitting
 set.seed(810)
 training.set = sample(nrow(df_TCD),0.7*nrow(df_TCD))
 
@@ -33,13 +35,15 @@ training.set = sample(nrow(df_TCD),0.7*nrow(df_TCD))
 churn.forest <- randomForest(formula = Churn ~ .,data = df_TCD, ntree = 500, subset=training.set,importance = TRUE)
 
 #evaluating
-print(churn.forest) # only 
+print(churn.forest) # only #6.69% error
 
 #plot
 plot(churn.forest, col = "black")
 legend("topright", legend=c(levels(df_TCD$Churn),"OOB"),lty = c("dashed","dotted","dotdash","solid"),cex=.8,bty = "n")
 churn.forest
 
+#variable importance
+varImpPlot(churn.forest)
 
 
 

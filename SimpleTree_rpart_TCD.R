@@ -28,10 +28,19 @@ df_TCD[1] #testing postion 1 so I don't delete wrong columns (3 and 7)
 df_TCD  <- df_TCD[-c(1,3,7)]  #needed to run only 1 time, custid is issue, and other 2 not needed
 str(df_TCD)
 
+#testing and training
+set.seed(2)
+train <- sample(1:nrow(df_TCD), nrow(df_TCD)/2)
+test_comp <- sample(1:nrow(df_TCD), nrow(df_TCD))
+test <- test_comp[is.na(pmatch(test_comp,train))]
+training_data = df_TCD[train,]
+testing_data = df_TCD[test,]
+testing_Churn =Churn[test]
+
 
 #rpart decision tree
 #I didn't setup test or training data, should I? ******
-rpart_churn_tree <- rpart(Churn ~  .,data=df_TCD, method="class")
+rpart_churn_tree <- rpart(Churn ~  .,data=testing_data, method="class")
 plot(rpart_churn_tree)
 text(rpart_churn_tree) #displaying my simple tree
 
@@ -39,11 +48,15 @@ text(rpart_churn_tree) #displaying my simple tree
 #much more detailed graphic
 fancyRpartPlot(rpart_churn_tree)
 
-
 #Looking at the simple model predicts
 Prediction <- predict(rpart_churn_tree, type = "class")
 summary(Prediction) # predicting 2955 No, and 378 yes
 summary(df_TCD$Churn) #Actuals 2850 No, 483 Yes
+
+#Checking accuracy
+rpart_tree_pred = predict(rpart_churn_tree, testing_data, type = "class")
+mean(rpart_tree_pred != testing_Churn)  #0.04559088 is that 4.5% (rpart higher than other tree?)
+
 
 #additional viz
 prp(rpart_churn_tree)  #simple decision tree output with prp which is part of rpart

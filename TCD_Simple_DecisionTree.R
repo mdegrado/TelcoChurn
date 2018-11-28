@@ -44,11 +44,13 @@ summary(tree_model) #Summary of Tree
 
 # check how the model is doing using the test data
 tree_pred = predict(tree_model, testing_data, type = "class")
+tree_pred
 
-#not sure what this one does
-mean(tree_pred != testing_Churn)  #0.07318536
+#how often is the tree not matching
+mean(tree_pred != testing_Churn)  #0.07318536 is that 7.3%
 
-### Prune the tree
+
+### Prune the tree  ****STOPPED here
 ## cross validation to check where to stop pruning
 set.seed(3) #needed for the cv.tree function
 
@@ -68,3 +70,6 @@ text(pruned_model)
 
 tree_pred =  predict(pruned_model, testing_data, type = "class")
 mean(tree_pred != testing_High) #misclassification error rate of 23%
+
+
+
