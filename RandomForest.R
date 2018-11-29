@@ -37,6 +37,7 @@ churn.forest <- randomForest(formula = Churn ~ .,data = df_TCD, ntree = 500, sub
 #evaluating
 print(churn.forest) # only #6.69% error
 
+
 #plot
 plot(churn.forest, col = "black")
 legend("topright", legend=c(levels(df_TCD$Churn),"OOB"),lty = c("dashed","dotted","dotdash","solid"),cex=.8,bty = "n")

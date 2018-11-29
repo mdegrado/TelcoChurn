@@ -46,6 +46,9 @@ summary(tree_model) #Summary of Tree
 tree_pred = predict(tree_model, testing_data, type = "class")
 tree_pred
 
+#confusion matrix
+table(Churn[test], predicted= tree_pred)
+
 #how often is the tree not matching
 mean(tree_pred != testing_Churn)  #0.07318536 is that 7.3%
 

@@ -30,7 +30,7 @@ str(df_TCD)
 
 #testing and training
 set.seed(2)
-train <- sample(1:nrow(df_TCD), nrow(df_TCD)/2)
+train <- sample(1:nrow(df_TCD), nrow(df_TCD)/2) #shuffling data
 test_comp <- sample(1:nrow(df_TCD), nrow(df_TCD))
 test <- test_comp[is.na(pmatch(test_comp,train))]
 training_data = df_TCD[train,]
@@ -40,16 +40,17 @@ testing_Churn =Churn[test]
 
 #rpart decision tree
 #I didn't setup test or training data, should I? ******
-rpart_churn_tree <- rpart(Churn ~  .,data=testing_data, method="class")
+rpart_churn_tree <- rpart(Churn ~  .,data=testing_data, method="class") #class = classification tree
 plot(rpart_churn_tree)
 text(rpart_churn_tree) #displaying my simple tree
 
 #Pros and cons of the simlple tree?
 #much more detailed graphic
+summary(rpart_churn_tree)
 fancyRpartPlot(rpart_churn_tree)
 
 #Looking at the simple model predicts
-Prediction <- predict(rpart_churn_tree, type = "class")
+Prediction <- predict(rpart_churn_tree, type = "class") 
 summary(Prediction) # predicting 2955 No, and 378 yes
 summary(df_TCD$Churn) #Actuals 2850 No, 483 Yes
 
@@ -70,5 +71,10 @@ printcp(rpart_churn_tree)
 plotcp(rpart_churn_tree,upper="splits")  #lowest cross validation error 0.39545
 summary(rpart_churn_tree)
 
+#matrix
+table(Churn[test], predicted= Prediction)
+
+table(Prediction)
+table(testing_Churn)
 
 
