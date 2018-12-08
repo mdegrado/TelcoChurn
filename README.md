@@ -1387,7 +1387,7 @@ future churn?<b style='mso-bidi-font-weight:normal'> <o:p></o:p></b></span></p>
 style='mso-bidi-font-weight:normal'><span style='font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#24292E'>Approach:</span></b><span
 style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
-color:#24292E'><span style='mso-spacerun:yes'>  </span>Use exploratory data
+color:#24292E'><span style='mso-spacerun:yes'>Â  </span>Use exploratory data
 analysis (EDA), visualizations ML to understanding data relating to Telco
 churn. Demonstrate understanding of key churn data variables and provide
 prediction model for churn.<o:p></o:p></span></p>
@@ -1412,9 +1412,9 @@ understand the data we will use tools such as R and excel to explore. <o:p></o:p
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
 style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
 color:#24292E'>The dependent variable in our exercise is the Churn value of
-‘Yes’ or ‘No’, the independent variables are the remaining data elements that
+Â‘YesÂ’ or Â‘NoÂ’, the independent variables are the remaining data elements that
 may have an impact on the dependent variable. One independent variable we can
-rule out is the Phone service data element which is set to ‘Yes’ in every
+rule out is the Phone service data element which is set to Â‘YesÂ’ in every
 record, indicating it would have no impact on the Churn since it is the same
 value each time. What will be of key importance to us is will one or more
 independent variables show more important than the rest.<o:p></o:p></span></p>
@@ -1450,7 +1450,7 @@ independent variables show more important than the rest.<o:p></o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><b
   style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt;font-family:
   "Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-  minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>‘rpart’
+  minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Â‘rpartÂ’
   decision tree<o:p></o:p></span></b></p>
   </td>
   <td width=483 valign=top style='width:209.05pt;border:solid windowtext 1.0pt;
@@ -1845,7 +1845,7 @@ independent variables show more important than the rest.<o:p></o:p></span></p>
     <p class=MsoListParagraph><b><span style='font-size:11.0pt;font-family:
     "Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
     minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:
-    minor-bidi'>Total<span style='mso-spacerun:yes'>  </span>2,233</span></b><b
+    minor-bidi'>Total<span style='mso-spacerun:yes'>Â  </span>2,233</span></b><b
     style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt;
     font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;
     mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
@@ -2056,7 +2056,7 @@ independent variables show more important than the rest.<o:p></o:p></span></p>
     <p class=MsoListParagraph><b><span style='font-size:11.0pt;font-family:
     "Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
     minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:
-    minor-bidi'>Total<span style='mso-spacerun:yes'>  </span>1,667</span></b><b
+    minor-bidi'>Total<span style='mso-spacerun:yes'>Â  </span>1,667</span></b><b
     style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt;
     font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;
     mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
@@ -2246,7 +2246,7 @@ independent variables show more important than the rest.<o:p></o:p></span></p>
     <p class=MsoListParagraphCxSpFirst><b><span style='font-size:11.0pt;
     font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;
     mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
-    mso-bidi-theme-font:minor-bidi'>Total<span style='mso-spacerun:yes'> 
+    mso-bidi-theme-font:minor-bidi'>Total<span style='mso-spacerun:yes'>Â 
     </span>1,667<o:p></o:p></span></b></p>
     <p class=MsoListParagraphCxSpMiddle><b><span style='font-size:11.0pt;
     font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;
@@ -2322,7 +2322,7 @@ next step</p>
 auto;mso-add-space:auto;text-indent:-.25in;mso-list:l5 level1 lfo7'><![if !supportLists]><span
 style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>3.<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Logistics
-regression code is included. Model was run but accuracy was so low that it isn’t
+regression code is included. Model was run but accuracy was so low that it isnÂ’t
 included in the results</p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
@@ -2378,7 +2378,7 @@ auto;text-indent:-.25in;line-height:107%;mso-list:l0 level1 lfo8'><![if !support
 style='mso-bidi-font-weight:normal'><span style='mso-fareast-font-family:"Times New Roman"'><span
 style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span></b><![endif]>Logistic regression sample <b
-style='mso-bidi-font-weight:normal'><span style='mso-spacerun:yes'> </span></b><span
+style='mso-bidi-font-weight:normal'><span style='mso-spacerun:yes'>Â </span></b><span
 class=MsoHyperlink><a
 href="https://www.r-bloggers.com/how-to-perform-a-logistic-regression-in-r/">https://www.r-bloggers.com/how-to-perform-a-logistic-regression-in-r/</a></span><b
 style='mso-bidi-font-weight:normal'><o:p></o:p></b></p>
@@ -2393,7 +2393,7 @@ class=MsoHyperlink><span style='font-size:10.0pt;line-height:107%;font-family:
 "Arial",sans-serif;background:white'><a
 href="https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/">https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/</a></span></span><span
 style='font-size:10.0pt;line-height:107%;font-family:"Arial",sans-serif;
-color:#222222;background:white'><span style='mso-spacerun:yes'>   </span>---
+color:#222222;background:white'><span style='mso-spacerun:yes'>Â Â  </span>---
 Tree base modeling tutorial</span><o:p></o:p></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-bottom:8.0pt;mso-add-space:
@@ -2419,7 +2419,7 @@ auto;text-indent:-.25in;line-height:107%;mso-list:l0 level1 lfo8'><![if !support
 class=MsoHyperlink><span style='mso-fareast-font-family:"Times New Roman";
 text-decoration:none;text-underline:none'><span style='mso-list:Ignore'>9.<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span><![endif]>Basic
-R example for decision tree:<span style='mso-spacerun:yes'>  </span><span
+R example for decision tree:<span style='mso-spacerun:yes'>Â  </span><span
 class=MsoHyperlink><a href="https://rpubs.com/SANPANDE/221595">https://rpubs.com/SANPANDE/221595</a><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-bottom:8.0pt;mso-add-space:
@@ -2428,7 +2428,7 @@ style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]>My <span
 class=SpellE>Github</span> for Practicum 2: <span class=MsoHyperlink><a
 href="https://github.com/mdegrado/TelcoChurn">https://github.com/mdegrado/TelcoChurn</a></span><span
-style='mso-spacerun:yes'>  </span>- In Progress<o:p></o:p></p>
+style='mso-spacerun:yes'>Â  </span>- In Progress<o:p></o:p></p>
 
 <p class=MsoListParagraphCxSpLast style='margin-bottom:8.0pt;mso-add-space:
 auto;text-indent:-.25in;line-height:107%;mso-list:l0 level1 lfo8'><![if !supportLists]><span
@@ -2522,7 +2522,7 @@ style='mso-bidi-font-weight:normal'>The Data: Results from EDA:<o:p></o:p></b></
   <p class=MsoNormal style='mso-margin-top-alt:auto'><span style='font-size:
   11.0pt;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;
   mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:minor-bidi'>has:<span style='mso-spacerun:yes'> 
+  mso-bidi-theme-font:minor-bidi'>has:<span style='mso-spacerun:yes'>Â 
   </span>Male or Female<o:p></o:p></span></p>
   </td>
   <td width=188 valign=top style='width:141.0pt;border-top:none;border-left:
@@ -3847,249 +3847,249 @@ style='mso-bidi-font-weight:normal'>R code and graphics from the EDA activities<
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
     padding:0in'>'<span class=SpellE>data.frame</span>':<span style='mso-tab-count:
-    1'>  </span>3333 obs. of<span style='mso-spacerun:yes'>  </span>33
+    1'>Â  </span>3333 obs. of<span style='mso-spacerun:yes'>Â  </span>33
     variables:<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>customerID</span><span
-    style='mso-spacerun:yes'>          </span>: Factor w/ 3333 levels
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>customerID</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â  </span>: Factor w/ 3333 levels
     &quot;0002-ORFBO&quot;,&quot;0004-TLHLJ&quot;,..: 1 2 3 4 5 6 7 8 9 10 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ gender<span
-    style='mso-spacerun:yes'>              </span>: Factor w/ 2 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ gender<span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>: Factor w/ 2 levels &quot;<span
     class=SpellE>Female&quot;,&quot;Male</span>&quot;: 1 2 1 1 1 1 1 2 1 1 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>SeniorCitizen</span><span
-    style='mso-spacerun:yes'>       </span>: <span class=SpellE>int</span><span
-    style='mso-spacerun:yes'>  </span>0 0 0 1 1 0 1 1 0 0 ...<o:p></o:p></span></p>
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>SeniorCitizen</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>: <span class=SpellE>int</span><span
+    style='mso-spacerun:yes'>Â  </span>0 0 0 1 1 0 1 1 0 0 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>MaritalStatus</span><span
-    style='mso-spacerun:yes'>       </span>: Factor w/ 2 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>MaritalStatus</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>: Factor w/ 2 levels &quot;<span
     class=SpellE>No&quot;,&quot;Yes</span>&quot;: 2 1 1 2 1 2 1 1 1 2 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ Dependents<span
-    style='mso-spacerun:yes'>          </span>: Factor w/ 2 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ Dependents<span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â  </span>: Factor w/ 2 levels &quot;<span
     class=SpellE>No&quot;,&quot;Yes</span>&quot;: 2 1 2 1 1 1 1 1 1 2 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ tenure<span
-    style='mso-spacerun:yes'>              </span>: <span class=SpellE>int</span><span
-    style='mso-spacerun:yes'>  </span>9 4 9 71 7 5 1 45 3 4 ...<o:p></o:p></span></p>
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ tenure<span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>: <span class=SpellE>int</span><span
+    style='mso-spacerun:yes'>Â  </span>9 4 9 71 7 5 1 45 3 4 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>PhoneService</span><span
-    style='mso-spacerun:yes'>        </span>: Factor w/ 1 level
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>PhoneService</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>: Factor w/ 1 level
     &quot;Yes&quot;: 1 1 1 1 1 1 1 1 1 1 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>MultipleLines</span><span
-    style='mso-spacerun:yes'>       </span>: Factor w/ 2 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>MultipleLines</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>: Factor w/ 2 levels &quot;<span
     class=SpellE>No&quot;,&quot;Yes</span>&quot;: 1 1 1 1 1 1 2 1 1 1 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>InternetService</span><span
-    style='mso-spacerun:yes'>     </span>: Factor w/ 3 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>InternetService</span><span
+    style='mso-spacerun:yes'>Â Â Â Â  </span>: Factor w/ 3 levels &quot;<span
     class=SpellE>DSL&quot;,&quot;Fiber</span> optic&quot;,..: 1 2 1 2 1 2 2 1 3
     3 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>OnlineSecurity</span><span
-    style='mso-spacerun:yes'>      </span>: Factor w/ 3 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>OnlineSecurity</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â  </span>: Factor w/ 3 levels &quot;<span
     class=SpellE>No&quot;,&quot;No</span> internet service&quot;,..: 1 1 1 3 3
     1 1 3 2 2 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>OnlineBackup</span><span
-    style='mso-spacerun:yes'>        </span>: Factor w/ 3 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>OnlineBackup</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>: Factor w/ 3 levels &quot;<span
     class=SpellE>No&quot;,&quot;No</span> internet service&quot;,..: 3 1 1 3 1
     1 1 1 2 2 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>DeviceProtection</span><span
-    style='mso-spacerun:yes'>    </span>: Factor w/ 3 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>DeviceProtection</span><span
+    style='mso-spacerun:yes'>Â Â Â  </span>: Factor w/ 3 levels &quot;<span
     class=SpellE>No&quot;,&quot;No</span> internet service&quot;,..: 1 3 1 3 1
     1 1 3 2 2 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>TechSupport</span><span
-    style='mso-spacerun:yes'>         </span>: Factor w/ 3 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>TechSupport</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span>: Factor w/ 3 levels &quot;<span
     class=SpellE>No&quot;,&quot;No</span> internet service&quot;,..: 3 1 3 3 1
     1 1 1 2 2 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>StreamingTV</span><span
-    style='mso-spacerun:yes'>         </span>: Factor w/ 3 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>StreamingTV</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span>: Factor w/ 3 levels &quot;<span
     class=SpellE>No&quot;,&quot;No</span> internet service&quot;,..: 3 1 3 3 1
     1 1 1 2 2 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>StreamingMovies</span><span
-    style='mso-spacerun:yes'>     </span>: Factor w/ 3 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>StreamingMovies</span><span
+    style='mso-spacerun:yes'>Â Â Â Â  </span>: Factor w/ 3 levels &quot;<span
     class=SpellE>No&quot;,&quot;No</span> internet service&quot;,..: 1 1 3 3 1
     1 1 3 2 2 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ Contract<span
-    style='mso-spacerun:yes'>            </span>: Factor w/ 3 levels
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ Contract<span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â  </span>: Factor w/ 3 levels
     &quot;Month-to-month&quot;,..: 2 1 1 3 1 1 1 2 1 1 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>PaperlessBilling</span><span
-    style='mso-spacerun:yes'>    </span>: Factor w/ 2 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>PaperlessBilling</span><span
+    style='mso-spacerun:yes'>Â Â Â  </span>: Factor w/ 2 levels &quot;<span
     class=SpellE>No&quot;,&quot;Yes</span>&quot;: 2 2 2 2 2 2 2 1 1 1 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>PaymentMethod</span><span
-    style='mso-spacerun:yes'>       </span>: Factor w/ 4 levels &quot;Bank
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>PaymentMethod</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>: Factor w/ 4 levels &quot;Bank
     transfer (automatic)&quot;,..: 4 3 2 1 3 3 3 2 4 4 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>InternationalPlan</span><span
-    style='mso-spacerun:yes'>   </span>: Factor w/ 2 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>InternationalPlan</span><span
+    style='mso-spacerun:yes'>Â Â  </span>: Factor w/ 2 levels &quot;<span
     class=SpellE>No&quot;,&quot;Yes</span>&quot;: 1 2 1 1 1 1 2 1 1 1 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>VoiceMailPlan</span><span
-    style='mso-spacerun:yes'>   </span><span
-    style='mso-spacerun:yes'>    </span>: Factor w/ 2 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>VoiceMailPlan</span><span
+    style='mso-spacerun:yes'>Â Â  </span><span
+    style='mso-spacerun:yes'>Â Â Â Â </span>: Factor w/ 2 levels &quot;<span
     class=SpellE>No&quot;,&quot;Yes</span>&quot;: 1 1 2 1 1 1 1 1 1 1 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>NumbervMailMessages</span>
-    : <span class=SpellE>int</span><span style='mso-spacerun:yes'>  </span>0 0
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>NumbervMailMessages</span>
+    : <span class=SpellE>int</span><span style='mso-spacerun:yes'>Â  </span>0 0
     36 0 0 0 0 0 0 0 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>TotalDayMinutes</span><span
-    style='mso-spacerun:yes'>     </span>: <span class=SpellE>num</span><span
-    style='mso-spacerun:yes'>  </span>168.8 122.2 178.7 190.2 67.7 ...<o:p></o:p></span></p>
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>TotalDayMinutes</span><span
+    style='mso-spacerun:yes'>Â Â Â Â  </span>: <span class=SpellE>num</span><span
+    style='mso-spacerun:yes'>Â  </span>168.8 122.2 178.7 190.2 67.7 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>TotalDayCalls</span><span
-    style='mso-spacerun:yes'>       </span>: <span class=SpellE>int</span><span
-    style='mso-spacerun:yes'>  </span>137 112 134 68 68 95 55 133 158 99 ...<o:p></o:p></span></p>
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>TotalDayCalls</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>: <span class=SpellE>int</span><span
+    style='mso-spacerun:yes'>Â  </span>137 112 134 68 68 95 55 133 158 99 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>TotalEveMinutes</span><span
-    style='mso-spacerun:yes'>     </span>: <span class=SpellE>num</span><span
-    style='mso-spacerun:yes'>  </span>241 132 179 262 196 ...<o:p></o:p></span></p>
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>TotalEveMinutes</span><span
+    style='mso-spacerun:yes'>Â Â Â Â  </span>: <span class=SpellE>num</span><span
+    style='mso-spacerun:yes'>Â  </span>241 132 179 262 196 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>TotalEveCalls</span><span
-    style='mso-spacerun:yes'>       </span>: <span class=SpellE>int</span><span
-    style='mso-spacerun:yes'>  </span>107 94 102 64 86 128 124 86 120 93 ...<o:p></o:p></span></p>
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>TotalEveCalls</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>: <span class=SpellE>int</span><span
+    style='mso-spacerun:yes'>Â  </span>107 94 102 64 86 128 124 86 120 93 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>TotalNightMinutes</span><span
-    style='mso-spacerun:yes'>   </span>: <span class=SpellE>num</span><span
-    style='mso-spacerun:yes'>  </span>205 170 127 130 236 ...<o:p></o:p></span></p>
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>TotalNightMinutes</span><span
+    style='mso-spacerun:yes'>Â Â  </span>: <span class=SpellE>num</span><span
+    style='mso-spacerun:yes'>Â  </span>205 170 127 130 236 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>TotalNightCalls</span><span
-    style='mso-spacerun:yes'>     </span>: <span class=SpellE>int</span><span
-    style='mso-spacerun:yes'>  </span>106 106 82 92 137 105 81 80 46 106 ...<o:p></o:p></span></p>
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>TotalNightCalls</span><span
+    style='mso-spacerun:yes'>Â Â Â Â  </span>: <span class=SpellE>int</span><span
+    style='mso-spacerun:yes'>Â  </span>106 106 82 92 137 105 81 80 46 106 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>TotalIntlMinutes</span><span
-    style='mso-spacerun:yes'>    </span>: <span class=SpellE>num</span><span
-    style='mso-spacerun:yes'>  </span>15.5 10.3 8 8.8 12 12.9 10 11.5 12.4 8
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>TotalIntlMinutes</span><span
+    style='mso-spacerun:yes'>Â Â Â  </span>: <span class=SpellE>num</span><span
+    style='mso-spacerun:yes'>Â  </span>15.5 10.3 8 8.8 12 12.9 10 11.5 12.4 8
     ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>TotalIntlCalls</span><span
-    style='mso-spacerun:yes'>      </span>: <span class=SpellE>int</span><span
-    style='mso-spacerun:yes'>  </span>4 9 4 4 2 5 7 3 3 4 ...<o:p></o:p></span></p>
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>TotalIntlCalls</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â  </span>: <span class=SpellE>int</span><span
+    style='mso-spacerun:yes'>Â  </span>4 9 4 4 2 5 7 3 3 4 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>CustomerServiceCalls</span>:
-    <span class=SpellE>int</span><span style='mso-spacerun:yes'>  </span>0 5 2
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>CustomerServiceCalls</span>:
+    <span class=SpellE>int</span><span style='mso-spacerun:yes'>Â  </span>0 5 2
     0 1 3 3 0 1 1 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>TotalCall</span><span
-    style='mso-spacerun:yes'>           </span>: <span class=SpellE>int</span><span
-    style='mso-spacerun:yes'>  </span>354 326 324 228 294 336 270 302 328 303
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>TotalCall</span><span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â  </span>: <span class=SpellE>int</span><span
+    style='mso-spacerun:yes'>Â  </span>354 326 324 228 294 336 270 302 328 303
     ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ <span class=SpellE>TotalRevenue</span><span
-    style='mso-spacerun:yes'>    </span><span
-    style='mso-spacerun:yes'>    </span>: <span class=SpellE>num</span><span
-    style='mso-spacerun:yes'>  </span>593 281 572 7904 340 ...<o:p></o:p></span></p>
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ <span class=SpellE>TotalRevenue</span><span
+    style='mso-spacerun:yes'>Â Â Â  </span><span
+    style='mso-spacerun:yes'>Â Â Â Â </span>: <span class=SpellE>num</span><span
+    style='mso-spacerun:yes'>Â  </span>593 281 572 7904 340 ...<o:p></o:p></span></p>
     <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
     word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
     mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
     color:black;border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;
-    padding:0in'><span style='mso-spacerun:yes'> </span>$ Churn<span
-    style='mso-spacerun:yes'>               </span>: Factor w/ 2 levels &quot;<span
+    padding:0in'><span style='mso-spacerun:yes'>Â </span>$ Churn<span
+    style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>: Factor w/ 2 levels &quot;<span
     class=SpellE>No&quot;,&quot;Yes</span>&quot;: 1 2 1 1 1 1 1 2 1 2 ...<o:p></o:p></span></p>
     </td>
    </tr>
@@ -4104,7 +4104,7 @@ style='mso-bidi-font-weight:normal'>R code and graphics from the EDA activities<
      <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
       <td width=839 valign=top style='width:.75pt;padding:0in 0in 0in 0in'>
       <p class=MsoNormal><span style='font-family:"Lucida Console";mso-fareast-font-family:
-      "Times New Roman";color:blue'><span style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+      "Times New Roman";color:blue'><span style='mso-spacerun:yes'>Â </span><o:p></o:p></span></p>
       </td>
      </tr>
     </table>
@@ -4493,77 +4493,77 @@ tree results</p>
   class=SpellE>SeniorYN</span> + gender + <span class=SpellE>MaritalStatus</span> + Dependents + <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>    </span>tenure + <span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â </span>tenure + <span
   class=SpellE>PhoneService</span> + <span class=SpellE>MultipleLines</span> + <span
   class=SpellE>InternetService</span> + <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>    </span><span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â </span><span
   class=SpellE>OnlineSecurity</span> + <span class=SpellE>OnlineBackup</span> + <span
   class=SpellE>DeviceProtection</span> + <span class=SpellE>TechSupport</span> + <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>    </span><span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â </span><span
   class=SpellE>StreamingTV</span> + <span class=SpellE>StreamingMovies</span> + Contract + <span
   class=SpellE>PaperlessBilling</span> + <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>    </span><span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â </span><span
   class=SpellE>PaymentMethod</span> + <span class=SpellE>InternationalPlan</span> + <span
   class=SpellE>VoiceMailPlan</span> + <span class=SpellE>NumbervMailMessages</span> + <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>    </span><span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â </span><span
   class=SpellE>TotalDayMinutes</span> + <span class=SpellE>TotalDayCalls</span> + <span
   class=SpellE>TotalEveMinutes</span> + <span class=SpellE>TotalEveCalls</span> + <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>    </span><span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â </span><span
   class=SpellE>TotalNightMinutes</span> + <span class=SpellE>TotalNightCalls</span> + <span
   class=SpellE>TotalIntlMinutes</span> + <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>    </span><span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â </span><span
   class=SpellE>TotalIntlCalls</span> + <span class=SpellE>CustomerServiceCalls</span> + <span
   class=SpellE>TotalCall</span> + <span class=SpellE>TotalRevenue</span>, <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>    </span>data = <span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â </span>data = <span
   class=SpellE>df_TCD_thin</span>, method = &quot;class&quot;)<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>  </span>n= 3333 <o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â  </span>n= 3333 <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
   border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><o:p>&nbsp;</o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>          </span><span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â  </span><span
   style='background:#5B9BD5;mso-shading-themecolor:accent1'>CP <span
-  class=SpellE>nsplit</span> <span class=SpellE>rel</span> error<span style='mso-spacerun:yes'>    </span><span
-  class=SpellE>xerror</span><span style='mso-spacerun:yes'>       </span><span
+  class=SpellE>nsplit</span> <span class=SpellE>rel</span> error<span style='mso-spacerun:yes'>Â Â Â  </span><span
+  class=SpellE>xerror</span><span style='mso-spacerun:yes'>Â Â Â Â Â Â  </span><span
   class=SpellE>xstd</span></span><o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>1 0.09316770<span style='mso-spacerun:yes'>      </span>0 1.0000000 1.0000000 0.04207569<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>1 0.09316770<span style='mso-spacerun:yes'>Â Â Â Â Â  </span>0 1.0000000 1.0000000 0.04207569<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>2 0.07867495<span style='mso-spacerun:yes'>      </span>2 0.8136646 0.8219462 0.03871761<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>2 0.07867495<span style='mso-spacerun:yes'>Â Â Â Â Â  </span>2 0.8136646 0.8219462 0.03871761<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>3 0.05279503<span style='mso-spacerun:yes'>      </span>4 0.6563147 0.6749482 0.03550673<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>3 0.05279503<span style='mso-spacerun:yes'>Â Â Â Â Â  </span>4 0.6563147 0.6749482 0.03550673<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>4 0.02277433<span style='mso-spacerun:yes'>      </span>7 0.4616977 0.4803313 0.03041796<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>4 0.02277433<span style='mso-spacerun:yes'>Â Â Â Â Â  </span>7 0.4616977 0.4803313 0.03041796<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>5 0.01863354<span style='mso-spacerun:yes'>      </span>8 0.4389234 0.4575569 0.02974070<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>5 0.01863354<span style='mso-spacerun:yes'>Â Â Â Â Â  </span>8 0.4389234 0.4575569 0.02974070<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>6 0.01759834<span style='mso-spacerun:yes'>      </span>9 0.4202899 0.4409938 0.02923495<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>6 0.01759834<span style='mso-spacerun:yes'>Â Â Â Â Â  </span>9 0.4202899 0.4409938 0.02923495<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>7 0.01000000<span style='mso-spacerun:yes'>     </span>12 0.3623188 0.3954451 0.02778145<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>7 0.01000000<span style='mso-spacerun:yes'>Â Â Â Â  </span>12 0.3623188 0.3954451 0.02778145<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
   border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><o:p>&nbsp;</o:p></span></span></pre><pre
@@ -4572,77 +4572,77 @@ tree results</p>
   border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>Variable importance<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>     </span><span
-  class=SpellE>TotalDayMinutes</span> <span class=SpellE>CustomerServiceCalls</span><span style='mso-spacerun:yes'>     </span><span
-  class=SpellE>TotalIntlMinutes</span><span style='mso-spacerun:yes'>    </span><span
-  class=SpellE>InternationalPlan</span><span style='mso-spacerun:yes'>       </span><span
-  class=SpellE>TotalIntlCalls</span><span style='mso-spacerun:yes'>               </span>tenure <o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â  </span><span
+  class=SpellE>TotalDayMinutes</span> <span class=SpellE>CustomerServiceCalls</span><span style='mso-spacerun:yes'>Â Â Â Â  </span><span
+  class=SpellE>TotalIntlMinutes</span><span style='mso-spacerun:yes'>Â Â Â  </span><span
+  class=SpellE>InternationalPlan</span><span style='mso-spacerun:yes'>Â Â Â Â Â Â  </span><span
+  class=SpellE>TotalIntlCalls</span><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>tenure <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>      </span><span style='mso-spacerun:yes'>            </span>24<span style='mso-spacerun:yes'>                   </span>13<span style='mso-spacerun:yes'>                   </span>10<span style='mso-spacerun:yes'>                    </span>8<span style='mso-spacerun:yes'>                    </span>8<span style='mso-spacerun:yes'>                    </span>7 <o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â Â Â </span><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â </span>24<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>13<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>10<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>8<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>8<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>7 <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>            </span>Contract<span style='mso-spacerun:yes'>         </span><span
-  class=SpellE>TotalRevenue</span><span style='mso-spacerun:yes'>      </span><span
-  class=SpellE>TotalEveMinutes</span><span style='mso-spacerun:yes'>  </span><span
-  class=SpellE>NumbervMailMessages</span><span style='mso-spacerun:yes'>        </span><span
-  class=SpellE>VoiceMailPlan</span><span style='mso-spacerun:yes'>       </span><span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â </span>Contract<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span><span
+  class=SpellE>TotalRevenue</span><span style='mso-spacerun:yes'>Â Â Â Â Â  </span><span
+  class=SpellE>TotalEveMinutes</span><span style='mso-spacerun:yes'>Â  </span><span
+  class=SpellE>NumbervMailMessages</span><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span><span
+  class=SpellE>VoiceMailPlan</span><span style='mso-spacerun:yes'>Â Â Â Â Â Â  </span><span
   class=SpellE>OnlineSecurity</span> <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>        </span><span style='mso-spacerun:yes'>           </span>6<span style='mso-spacerun:yes'>                    </span>5<span style='mso-spacerun:yes'>                    </span>4<span style='mso-spacerun:yes'>                    </span>4<span style='mso-spacerun:yes'>                    </span>4<span style='mso-spacerun:yes'>                    </span>2 <o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â </span><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â </span>6<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>5<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>4<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>4<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>4<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>2 <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>     </span><span
-  class=SpellE>InternetService</span><span style='mso-spacerun:yes'>         </span><span
-  class=SpellE>OnlineBackup</span><span style='mso-spacerun:yes'>      </span><span
-  class=SpellE>TotalNightCalls</span><span style='mso-spacerun:yes'>    </span><span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â Â </span><span
+  class=SpellE>InternetService</span><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span><span
+  class=SpellE>OnlineBackup</span><span style='mso-spacerun:yes'>Â Â Â Â Â  </span><span
+  class=SpellE>TotalNightCalls</span><span style='mso-spacerun:yes'>Â Â Â  </span><span
   class=SpellE>TotalNightMinutes</span> <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>                   </span>1<span style='mso-spacerun:yes'>                    </span>1<span style='mso-spacerun:yes'>           </span><span style='mso-spacerun:yes'>         </span>1<span style='mso-spacerun:yes'>                    </span>1 <o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â </span>1<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>1<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â  </span><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â </span>1<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>1 <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
   border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><o:p>&nbsp;</o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>Node number 1: 3333 observations,<span style='mso-spacerun:yes'>    </span>complexity <span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'>Node number 1: 3333 observations,<span style='mso-spacerun:yes'>Â Â Â  </span>complexity <span
   class=SpellE>param</span>=0.0931677<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>  </span>predicted class=No<span style='mso-spacerun:yes'>   </span>expected loss=0.1449145<span style='mso-spacerun:yes'>  </span>P(node) =1<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â  </span>predicted class=No<span style='mso-spacerun:yes'>Â Â  </span>expected loss=0.1449145<span style='mso-spacerun:yes'>Â  </span>P(node) =1<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:yellow;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>    </span>class counts:<span style='mso-spacerun:yes'>  </span>2850<span style='mso-spacerun:yes'>   </span>483<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â  </span>class counts:<span style='mso-spacerun:yes'>Â  </span>2850<span style='mso-spacerun:yes'>Â Â  </span>483<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:yellow;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>   </span>probabilities: 0.855 0.145 <o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â  </span>probabilities: 0.855 0.145 <o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:yellow;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>  </span>left son=2 (3122 <span
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â </span>left son=2 (3122 <span
   class=SpellE>obs</span>) right son=3 (211 <span class=SpellE>obs</span>)<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>  </span>Primary splits:<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â  </span>Primary splits:<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>      </span><span
-  class=SpellE>TotalDayMinutes</span><span style='mso-spacerun:yes'>      </span>&lt; 264.45<span style='mso-spacerun:yes'>  </span>to the left<span
-  style='background:yellow'>,<span style='mso-spacerun:yes'>  </span>improve=94.08310,</span> (0 missing)<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â Â  </span><span
+  class=SpellE>TotalDayMinutes</span><span style='mso-spacerun:yes'>Â Â Â Â Â  </span>&lt; 264.45<span style='mso-spacerun:yes'>Â  </span>to the left<span
+  style='background:yellow'>,<span style='mso-spacerun:yes'>Â  </span>improve=94.08310,</span> (0 missing)<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>      </span>Contract<span style='mso-spacerun:yes'>             </span>splits as<span style='mso-spacerun:yes'>  </span>RLL,<span style='mso-spacerun:yes'>         </span>improve=86.76350, (0 missing)<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â Â  </span>Contract<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â  </span>splits as<span style='mso-spacerun:yes'>Â  </span>RLL,<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span>improve=86.76350, (0 missing)<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>      </span><span
-  class=SpellE>CustomerServiceCalls</span> &lt; 3.5<span style='mso-spacerun:yes'>     </span>to the left,<span style='mso-spacerun:yes'>  </span>improve=80.30617, (0 missing)<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â Â  </span><span
+  class=SpellE>CustomerServiceCalls</span> &lt; 3.5<span style='mso-spacerun:yes'>Â Â Â Â  </span>to the left,<span style='mso-spacerun:yes'>Â  </span>improve=80.30617, (0 missing)<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>      </span>tenure<span style='mso-spacerun:yes'>               </span>&lt; 5.5<span style='mso-spacerun:yes'>     </span>to the right, improve=80.25095, (0 missing)<o:p></o:p></span></span></pre><pre
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â Â  </span>tenure<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>&lt; 5.5<span style='mso-spacerun:yes'>Â Â Â Â  </span>to the right, improve=80.25095, (0 missing)<o:p></o:p></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='font-family:"Lucida Console";color:black;
-  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>      </span><span
-  class=SpellE>TechSupport</span><span style='mso-spacerun:yes'>          </span>splits as<span style='mso-spacerun:yes'>  </span>RLL,<span style='mso-spacerun:yes'>         </span>improve=71.85318, (0 missing)</span></span></pre>
+  border:none windowtext 1.0pt;mso-border-alt:none windowtext 0in;padding:0in'><span style='mso-spacerun:yes'>Â Â Â Â Â  </span><span
+  class=SpellE>TechSupport</span><span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â  </span>splits as<span style='mso-spacerun:yes'>Â  </span>RLL,<span style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span>improve=71.85318, (0 missing)</span></span></pre>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-ascii-theme-font:
   minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
@@ -4728,7 +4728,7 @@ src="README_files/image031.jpg" v:shapes="Picture_x0020_16"><![endif]></span></p
   <p class=MsoNormal align=center style='text-align:center'><b
   style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt;font-family:
   "Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-  minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>‘rpart’
+  minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Â‘rpartÂ’
   decision tree<o:p></o:p></span></b></p>
   </td>
   <td width=193 valign=top style='width:209.05pt;border:solid windowtext 1.0pt;
