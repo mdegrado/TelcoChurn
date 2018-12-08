@@ -18,7 +18,23 @@ o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
-<![endif]-->
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Degrado, Mike</o:Author>
+  <o:LastAuthor>Degrado, Mike</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>4</o:TotalTime>
+  <o:Created>2018-12-08T21:56:00Z</o:Created>
+  <o:LastSaved>2018-12-08T21:56:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>2290</o:Words>
+  <o:Characters>13059</o:Characters>
+  <o:Lines>108</o:Lines>
+  <o:Paragraphs>30</o:Paragraphs>
+  <o:CharactersWithSpaces>15319</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
 <link rel=themeData href="README_files/themedata.thmx">
 <link rel=colorSchemeMapping href="README_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
@@ -1056,17 +1072,18 @@ understand the data we will use tools such as R and excel to explore. </span></p
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
 style='font-family:"Segoe UI",sans-serif;color:#24292E'>The dependent variable
-in our exercise is the Churn value of Yes or No, the independent variables are
-the remaining data elements that may have an impact on the dependent variable.
-One independent variable we can rule out is the Phone service data element
-which is set to Yes in every record, indicating it would have no impact on the
-Churn since it is the same value each time. What will be of key importance to
-us is will one or more independent variables show more important than the rest.</span></p>
+in our exercise is the Churn value of ‘Yes’ or ‘No’, the independent variables
+are the remaining data elements that may have an impact on the dependent
+variable. One independent variable we can rule out is the Phone service data
+element which is set to ‘Yes’ in every record, indicating it would have no
+impact on the Churn since it is the same value each time. What will be of key
+importance to us is will one or more independent variables show more important
+than the rest.</span></p>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b>Model
 results</b></p>
 
-<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>&nbsp;<span
 style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
  coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
  filled="f" stroked="f">
@@ -1088,16 +1105,10 @@ style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
 </v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1041" type="#_x0000_t75"
- style='width:1328.25pt;height:592.5pt;visibility:visible;mso-wrap-style:square'>
+ style='width:834pt;height:487.5pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="README_files/image001.png" o:title=""/>
-</v:shape><![endif]--><![if !vml]><img border=0 width=1771 height=790
+</v:shape><![endif]--><![if !vml]><img border=0 width=1112 height=650
 src="README_files/image002.jpg" v:shapes="Picture_x0020_1"><![endif]></span></p>
-
-<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
-
-<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
-
-<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>&nbsp;</p>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b>Recommendations
 and usage scenarios:</b></p>
@@ -1952,14 +1963,16 @@ code and graphics from the EDA activities</b></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
-  border=0 width=222 height=82 id="_x0000_i1040" src="README_files/image004.png"></span></p>
+  border=0 width=222 height=82 id="_x0000_i1040"
+  src="../firefoxFinalPrez/README_files/image004.png"></span></p>
   </td>
   <td width=305 valign=top style='width:228.45pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
-  border=0 width=95 height=124 id="_x0000_i1039" src="README_files/image005.jpg"></span></p>
+  border=0 width=95 height=124 id="_x0000_i1039"
+  src="../firefoxFinalPrez/README_files/image005.jpg"></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:3'>
@@ -1973,7 +1986,8 @@ code and graphics from the EDA activities</b></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
-  border=0 width=195 height=80 id="_x0000_i1038" src="README_files/image006.png"></span></p>
+  border=0 width=195 height=80 id="_x0000_i1038"
+  src="../firefoxFinalPrez/README_files/image006.png"></span></p>
   </td>
   <td width=305 valign=top style='width:228.45pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
@@ -1981,7 +1995,7 @@ code and graphics from the EDA activities</b></p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
   border=0 width=154 height=210 id="_x0000_i1037"
-  src="README_files/image007.jpg"></span></p>
+  src="../firefoxFinalPrez/README_files/image007.jpg"></span></p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   class=SpellE><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Hist</span></span><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif'>(<span
@@ -1999,7 +2013,8 @@ code and graphics from the EDA activities</b></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
-  border=0 width=220 height=74 id="_x0000_i1036" src="README_files/image008.png"></span></p>
+  border=0 width=220 height=74 id="_x0000_i1036"
+  src="../firefoxFinalPrez/README_files/image008.png"></span></p>
   </td>
   <td width=305 valign=top style='width:228.45pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
@@ -2007,7 +2022,7 @@ code and graphics from the EDA activities</b></p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
   border=0 width=172 height=214 id="_x0000_i1035"
-  src="README_files/image009.jpg"></span></p>
+  src="../firefoxFinalPrez/README_files/image009.jpg"></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:5'>
@@ -2074,7 +2089,7 @@ code and graphics from the EDA activities</b></p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:10.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
   border=0 width=624 height=228 id="_x0000_i1034"
-  src="README_files/image010.jpg"></span></p>
+  src="../firefoxFinalPrez/README_files/image010.jpg"></span></p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:10.0pt;font-family:"Calibri",sans-serif'>Gives me the
   contents and breakdown for the categorical fields</span></p>
@@ -2310,7 +2325,7 @@ code and graphics from the EDA activities</b></p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
   word-break:break-all'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;
   mso-no-proof:yes'><img border=0 width=1112 height=329 id="_x0000_i1033"
-  src="README_files/image011.png"></span></p>
+  src="../firefoxFinalPrez/README_files/image011.png"></span></p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
   word-break:break-all'><span style='font-size:10.0pt;font-family:"Lucida Console";
   color:blue'>&nbsp;</span></p>
@@ -2384,7 +2399,7 @@ tree comparison, playing around</p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
   border=0 width=568 height=417 id="_x0000_i1032"
-  src="README_files/image012.jpg"></span></p>
+  src="../firefoxFinalPrez/README_files/image012.jpg"></span></p>
   </td>
   <td width=724 valign=top style='width:233.75pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
@@ -2392,7 +2407,7 @@ tree comparison, playing around</p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
   border=0 width=710 height=465 id="_x0000_i1031"
-  src="README_files/image013.png"></span></p>
+  src="../firefoxFinalPrez/README_files/image013.png"></span></p>
   </td>
  </tr>
 </table>
@@ -2434,7 +2449,7 @@ tree results</p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
   border=0 width=835 height=414 id="_x0000_i1030"
-  src="README_files/image014.jpg"></span></p>
+  src="../firefoxFinalPrez/README_files/image014.jpg"></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:2'>
@@ -2450,7 +2465,7 @@ tree results</p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
   border=0 width=876 height=537 id="_x0000_i1029"
-  src="README_files/image015.png"></span></p>
+  src="../firefoxFinalPrez/README_files/image015.png"></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:3'>
@@ -2468,7 +2483,7 @@ tree results</p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
   border=0 width=836 height=550 id="_x0000_i1028"
-  src="README_files/image016.png"></span></p>
+  src="../firefoxFinalPrez/README_files/image016.png"></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
@@ -2486,7 +2501,7 @@ tree results</p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
   border=0 width=690 height=557 id="_x0000_i1027"
-  src="README_files/image017.png"></span></p>
+  src="../firefoxFinalPrez/README_files/image017.png"></span></p>
   </td>
  </tr>
 </table>
@@ -2501,7 +2516,7 @@ tree results</p>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
   style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-no-proof:yes'><img
   border=0 width=720 height=584 id="_x0000_i1026"
-  src="README_files/image018.png"></span></p>
+  src="../firefoxFinalPrez/README_files/image018.png"></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:1'>
@@ -2531,8 +2546,7 @@ tree results</p>
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   class=gnkrckgcgsb><span style='outline: none;-webkit-user-select: text;
   white-space:pre-wrap !important'><span style='font-family:"Lucida Console";
-  mso-bidi-font-family:"Courier New";color:black'>Call:</span></span></span><span
-  class=gnkrckgcgsb><span style='font-family:"Courier New"'><o:p></o:p></span></span></pre><pre
+  mso-bidi-font-family:"Courier New";color:black'>Call:</span></span></span></pre><pre
   style='line-height:11.25pt;background:white;word-break:break-all'><span
   style='font-family:"Lucida Console";color:black'>rpart(formula = Churn ~ <span
   class=SpellE>SeniorYN</span> + gender + <span class=SpellE>MaritalStatus</span> + Dependents + </span></pre><pre
@@ -2717,7 +2731,7 @@ model output</b></p>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
 style='mso-no-proof:yes'><img border=0 width=480 height=514 id="_x0000_i1025"
-src="README_files/image019.jpg"></span></p>
+src="../firefoxFinalPrez/README_files/image019.jpg"></span></p>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>&nbsp;</p>
 
