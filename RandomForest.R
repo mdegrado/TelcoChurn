@@ -28,7 +28,7 @@ str(df_TCD)
 
 #split out some training data
 #The algorithm already samples the data and randomizes the variables to account for overfitting
-set.seed(810)
+set.seed(2) #matching other models
 training.set = sample(nrow(df_TCD),0.7*nrow(df_TCD))
 
 #trying to make call to random forest cleaner, but get error Can not handle categorical predictors with more than 53 categories
@@ -47,6 +47,20 @@ churn.forest
 varImpPlot(churn.forest)
 
 
+#Tuning, set trees to 400  - Error increased from 6.69 to 6.77
+
+#trying to make call to random forest cleaner, but get error Can not handle categorical predictors with more than 53 categories
+churn.forest <- randomForest(formula = Churn ~ .,data = df_TCD, ntree = 400, subset=training.set,importance = TRUE)
+
+#evaluating
+print(churn.forest) # only #6.69% error
 
 
+#Tuning, set trees to 700  - Error increased from 6.69 to 6.82
+
+#trying to make call to random forest cleaner, but get error Can not handle categorical predictors with more than 53 categories
+churn.forest <- randomForest(formula = Churn ~ .,data = df_TCD, ntree = 700, subset=training.set,importance = TRUE)
+
+#evaluating
+print(churn.forest) # only #6.69% error
 
