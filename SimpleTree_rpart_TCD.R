@@ -2,9 +2,9 @@
 #Code guidance from https://trevorstephens.com/kaggle-titanic-tutorial/r-part-3-decision-trees/
 
 #Loading packages to improve the graphical representations of the tree
-install.packages('rattle')
-install.packages('rpart.plot')
-install.packages('RColorBrewer')
+#install.packages('rattle')
+#install.packages('rpart.plot')
+#install.packages('RColorBrewer')
 library(rpart)
 library(rattle)
 library(rpart.plot)
@@ -71,10 +71,10 @@ printcp(rpart_churn_tree)
 plotcp(rpart_churn_tree,upper="splits")  #lowest cross validation error 0.39545
 summary(rpart_churn_tree)
 
-#matrix
+#confustion matrix
 table(Churn[test], predicted= Prediction)
 
-table(Prediction)
-table(testing_Churn)
+
+
 
 
