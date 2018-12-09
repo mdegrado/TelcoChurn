@@ -10,7 +10,7 @@ style='font-size:24.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Telco
 Churn</span></b></p>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt'><b><span
-style='font-family:"Segoe UI",sans-serif;color:#24292E'>Story: 14% customers
+style='font-family:"Segoe UI",sans-serif;color:#24292E'>Story: 14% of customers
 left (483 of 3,333), </span></b><span style='font-family:"Segoe UI",sans-serif;
 color:#24292E'>Can we use machine learning (ML) to help inform on why they may
 have churned/left and reduce future churn?<b> </b></span></p>
