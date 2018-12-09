@@ -38,10 +38,10 @@ understand the data we will use tools such as R and excel to explore. </span></p
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
 style='font-family:"Segoe UI",sans-serif;color:#24292E'>The dependent variable
-in our exercise is the Churn value of Yes or No, the independent variables
+in our exercise is the Churn value of Yes or No, the independent variables
 are the remaining data elements that may have an impact on the dependent
 variable. One independent variable we can rule out is the Phone service data
-element which is set to Yes in every record, indicating it would have no
+element which is set to Yes in every record, indicating it would have no
 impact on the Churn since it is the same value each time. What will be of key
 importance to us is will one or more independent variables show more important
 than the rest.</span></p>
