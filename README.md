@@ -12,12 +12,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link rel=File-List href="README_files/filelist.xml">
 <link rel=Edit-Time-Data href="README_files/editdata.mso">
 <!--[if !mso]>
-<style>
+
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
-</style>
+
 <![endif]--><!--[if gte mso 9]><xml>
  <o:DocumentProperties>
   <o:Author>Degrado, Mike</o:Author>
@@ -1072,10 +1072,10 @@ understand the data we will use tools such as R and excel to explore. </span></p
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
 style='font-family:"Segoe UI",sans-serif;color:#24292E'>The dependent variable
-in our exercise is the Churn value of ‘Yes’ or ‘No’, the independent variables
+in our exercise is the Churn value of Â‘YesÂ’ or Â‘NoÂ’, the independent variables
 are the remaining data elements that may have an impact on the dependent
 variable. One independent variable we can rule out is the Phone service data
-element which is set to ‘Yes’ in every record, indicating it would have no
+element which is set to Â‘YesÂ’ in every record, indicating it would have no
 impact on the Churn since it is the same value each time. What will be of key
 importance to us is will one or more independent variables show more important
 than the rest.</span></p>
@@ -1139,7 +1139,7 @@ sending PCA data in the Tree based models is a next step</p>
 
 <p class=MsoListParagraph style='text-indent:-.25in'>3.<span style='font-size:
 7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Logistics regression code is
-included. Model was run but accuracy was so low that it isn’t included in the
+included. Model was run but accuracy was so low that it isnÂ’t included in the
 results</p>
 
 <p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'>a.<span
@@ -2754,7 +2754,7 @@ src="../firefoxFinalPrez/README_files/image019.jpg"></span></p>
   <td width=181 valign=top style='width:187.25pt;border:solid windowtext 1.0pt;
   border-left:none;background:#9CC2E5;padding:0in 5.4pt 0in 5.4pt;height:29.2pt'>
   <p class=MsoNormal align=center style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-  auto;text-align:center'><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>‘rpart’
+  auto;text-align:center'><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Â‘rpartÂ’
   decision tree</span></b></p>
   </td>
   <td width=193 valign=top style='width:209.05pt;border:solid windowtext 1.0pt;
