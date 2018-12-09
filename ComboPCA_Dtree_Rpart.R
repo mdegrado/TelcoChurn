@@ -20,11 +20,11 @@ summary(df_TCD_PC)
 
 ### Split data into testing and training
 set.seed(2)
-train <- sample(1:nrow(df_TCD_PC), nrow(df_TCD_PC)/2)
-test_comp <- sample(1:nrow(df_TCD_PC), nrow(df_TCD_PC))
-test <- test_comp[is.na(pmatch(test_comp,train))]
-training_data = df_TCD_PC[train,]
-testing_data = df_TCD_PC[test,]
+train <- sample(1:nrow(df_TCD_PC), nrow(df_TCD_PC)/2) #sets up rows for training  1666 rows
+test_comp <- sample(1:nrow(df_TCD_PC), nrow(df_TCD_PC)) #3333 rows?
+test <- test_comp[is.na(pmatch(test_comp,train))] #sets test data int/rows
+training_data = df_TCD_PC[train,] #data 1667 rows (Churn still factor)
+testing_data = df_TCD_PC[test,] #selected the test set from main breakout #1667
 testing_Churn =Churn[test]
 
 summary(df_TCD_PC)
@@ -78,14 +78,15 @@ plot(cumsum(prop_varex), xlab = "Principal Component",
 
 #add a training set with principal components
 train.data <- data.frame(Churn = training_data[57], prin_comp$x)
-summary(train.data[,2:31]) #Churn is set as item 1
+train.data
+
 
 #we are interested in first 30 PCAs
-train.data <- train.data[,2:31]
+train.data <- train.data[,1:30]
 
 
 #run a decision tree
-library(rpart)
+
 rpart.model <- rpart(Churn ~ .,data = train.data, method = "class")
 rpart.model
 plot(rpart.model)
@@ -98,7 +99,7 @@ test.data <- as.data.frame(test.data)
 
 
 #select the first 30 components
-test.data <- test.data[,1:30]
+test.data <- test.data[,1:31]
 rpart.prediction <- predict(rpart.model, test.data)
 
 

@@ -7,15 +7,18 @@ df_TCD = data.frame(TCD) #Putting into data frame
 
 #removing custid,phonesvc always Y, dependent var Churn
 df_TCD[33] #testing postion 1 so I don't delete wrong columns (3 and 7)
-df_TCD  <- df_TCD[-c(1,7)]  #needed to run only 1 time, custid is issue, and other 2 not needed
+df_TCD  <- df_TCD[-c(1,7)]  #needed to run only 1 time, custid is issue, and other 7 not needed
 str(df_TCD)
 
 
 #change the categorical vars to numeric
 df_TCD_PC <- dummy.data.frame(df_TCD, names= c("gender","MaritalStatus","Dependents","MultipleLines","InternetService","OnlineSecurity","OnlineBackup","DeviceProtection","TechSupport",
-                                                  "StreamingTV","StreamingMovies","Contract","PaperlessBilling","PaymentMethod","InternationalPlan","VoiceMailPlan","Churn"))
-str(df_TCD_PC)
-summary(df_TCD_PC)
+                                                  "StreamingTV","StreamingMovies","Contract","PaperlessBilling","PaymentMethod","InternationalPlan","VoiceMailPlan","SeniorYN"))
+
+
+attach(df_TCD)
+str(df_TCD_PC[57])
+names(df_TCD_PC)
 
 ### Split data into testing and training
 set.seed(2)
@@ -27,9 +30,11 @@ testing_data = df_TCD_PC[test,]
 testing_Churn =Churn[test]
 
 
+
+str(training_data[57]) #checking for Churn var
 #PCA model  scale. = T, normalizes the variables to have standard deviation equals to 1
-#- removes the dependent var
-prin_comp <- prcomp(training_data[-31], scale. = T)  
+#- removes the dependent var 51 is churn
+prin_comp <- prcomp(training_data[-57], scale. = T)  
 #prin_comp <- prcomp(training_data, scale. = T)  
 names(prin_comp)
 
@@ -39,7 +44,12 @@ prin_comp$center
 #outputs the standard deviation of variables
 prin_comp$scale
 
-prin_comp$rotation[1:5,1:4]
+
+prin_comp$rotation[1:5,1:4]  #showing 5x4
+prin_comp$rotation[1:20,1:4] #showing 20x4
+
+dim(prin_comp$x) #score vectors 1666x57 dimension
+
 biplot(prin_comp, scale = 0) #plotting
 
 #compute standard deviation of each principal component
@@ -66,8 +76,6 @@ plot(cumsum(prop_varex), xlab = "Principal Component",
        ylab = "Cumulative Proportion of Variance Explained",
        type = "b")
 
-#add a training set with principal components
-train.data <- data.frame(Item_Outlet_Sales = train$Item_Outlet_Sales, prin_comp$x)
 
 
 

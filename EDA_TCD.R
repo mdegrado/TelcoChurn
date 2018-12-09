@@ -44,7 +44,7 @@ aggregate(df_TCD$Churn ~ df_TCD$gender+df_TCD$SeniorCitizen, FUN = length)
 
 library(Hmisc)
 
-describe(df_TCD_thin)# advantage over summary()? Shows distinct,missing,descriptive
+describe(df_TCD)# advantage over summary()? Shows distinct,missing,descriptive
 View(df_TCD) #brings up tab with the data to view
 var(df_TCD) #shows variance within the data
 
