@@ -1235,7 +1235,7 @@ style='color:blue'>https://github.com/mdegrado/Wine-reviews-analysis-and-visuali
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b>&nbsp;</b></p>
 
-<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b>The
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b>
 
 </body>
 
