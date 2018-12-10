@@ -18,7 +18,7 @@ have churned/left and reduce future churn?<b> </b></span></p>
 <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt'><b><span
 style='font-family:"Segoe UI",sans-serif;color:#24292E'>Approach:</span></b><span
 style='font-family:"Segoe UI",sans-serif;color:#24292E'>&nbsp; Use exploratory
-data analysis (EDA), visualizations ML to understanding data relating to Telco
+data analysis (EDA), visualizations and ML to understand data relating to Telco
 churn. Demonstrate understanding of key churn data variables and provide
 prediction model for churn.</span></p>
 
