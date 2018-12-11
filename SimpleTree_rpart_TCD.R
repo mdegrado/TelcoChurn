@@ -1,3 +1,4 @@
+#Telco Churn Data Science project tree_model
 #Loading Telco Churn data set from CSV https://www.kaggle.com/pangkw/telco-churn/version/3
 #Code guidance from https://trevorstephens.com/kaggle-titanic-tutorial/r-part-3-decision-trees/
 
@@ -38,7 +39,7 @@ testing_data = df_TCD[test,]
 testing_Churn =Churn[test]
 
 
-#rpart decision tree
+#rpart decision tree model
 #I didn't setup test or training data, should I? ******
 rpart_churn_tree <- rpart(Churn ~  .,data=testing_data, method="class") #class = classification tree
 plot(rpart_churn_tree)

@@ -1,3 +1,4 @@
+#Telco Churn Data Science project Logistics Regression
 #Code Adpapted from https://www.r-bloggers.com/how-to-perform-a-logistic-regression-in-r/
 
 library(ISLR)

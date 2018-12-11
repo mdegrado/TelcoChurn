@@ -1,3 +1,4 @@
+#Telco Churn Data Science project tree_model
 #code adapted from https://rpubs.com/SANPANDE/221595
 library(ISLR)
 library(tree)

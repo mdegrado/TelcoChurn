@@ -1,3 +1,4 @@
+#PCA to rpart, working on prediction code still giving error
 #code adapted from https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/
 library(dummies)
 
@@ -99,8 +100,14 @@ test.data <- as.data.frame(test.data)
 
 
 #select the first 30 components
-test.data <- test.data[,1:31]
+test.data <- head(test.data[,1:31])
 rpart.prediction <- predict(rpart.model, test.data)
+
+Prediction <- predict(rpart.model, type = "class") 
+
+
+Churn[test]
+rpart.prediction
 
 
 #confustion matrix

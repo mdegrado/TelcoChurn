@@ -1,3 +1,5 @@
+
+#Telco Churn Data Science project PCA
 #code adapted from https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/
 library(dummies)
 
@@ -38,6 +40,7 @@ prin_comp <- prcomp(training_data[-57], scale. = T)
 #prin_comp <- prcomp(training_data, scale. = T)  
 names(prin_comp)
 
+
 #outputs the mean of variables
 prin_comp$center
 
@@ -76,7 +79,12 @@ plot(cumsum(prop_varex), xlab = "Principal Component",
        ylab = "Cumulative Proportion of Variance Explained",
        type = "b")
 
+head(train)
 
+# Build the model on raw data for a sanity check.
+model <- rpart(Churn ~  ., method="class", data=train)    
+pred <- predict(model, test, type="class")
 
-
+# The confusion matrix below shows an accuracy of 0.932432
+table(pred, predicted= test[, 56])
 
